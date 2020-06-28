@@ -6,7 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "C:\\Users\\Chirag\\IdeaProjects\\Pylones\\src\\test\\Resource\\SignIn.feature",tags = {"@regression"},
-plugin = {"html:target/cucumber-report"})
+plugin = {"html:target/Cucumber-html-report",
+            "json:target/cucumber-report.json"
+}
+)
 
 public class RunCukeTest {
 }
