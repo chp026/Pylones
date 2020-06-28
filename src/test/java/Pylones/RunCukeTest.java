@@ -8,8 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "C:\\Users\\Chirag\\IdeaProjects\\Pylones\\src\\test\\Resource\\SignIn.feature",tags = {"@regression"},
 plugin = {"html:target/Cucumber-html-report",
           "json:target/cucumber-report.json",
-          "junit:traget/cucumber-xml-report.xml",
-"pretty:target/cucumber-pretty-report.txt"}
+          "junit:traget/cucumber-xml-report.xml" }
 )
 
 
